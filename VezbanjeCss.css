@@ -1,0 +1,59 @@
+body{
+    max-width: 100%;
+    position: relative;
+    height:950px ;
+    margin: auto;
+}
+@media screen and(width:650px){
+    div{
+    width: 100%;
+    }
+}
+#logo{
+    float: left;
+    width: 30%;
+}
+#tekstDobroDosli{
+    float: left;
+    width: 60%;
+}
+#TekstDobroDosli h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+    color:rgba(226, 21, 21,0.6);
+}
+header,nav,main,footer{
+    width: 100%;
+    border:1px solid red;
+}
+header{
+    height:180px;
+}
+header img{
+height: 180px;
+width: 280px;
+padding-left: 30px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(226, 21, 21,0.6);
+    padding-left: 10px;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+    padding:0px 20px;
+   
+    position: relative;
+}
+nav li:hover a{
+    color:rgba(2, 0, 0, 0.6);
+}
+nav li a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size:20px;
+     color:white;
+}
